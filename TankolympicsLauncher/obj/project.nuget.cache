@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6p0MlV4gW4V38J8LehooRRp3oXqzsFKCs4m6NhMfDyRBVlZaaHY3uK+Ijgqvru07z1GYIGQPm+flRsNNshGWfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\japsu\\Desktop\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\japsu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

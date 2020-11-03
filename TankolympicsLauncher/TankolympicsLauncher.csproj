@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>images\tankolympics_ico.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>build\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="images\tankolympics_banner.jpg" />
+    <Resource Include="images\tankolympics_ico.ico" />
+  </ItemGroup>
+
+</Project>
