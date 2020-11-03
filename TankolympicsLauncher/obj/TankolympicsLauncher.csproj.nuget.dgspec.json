@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\japsu\\Desktop\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher.csproj": {}
+    "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\japsu\\Desktop\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher.csproj": {
+    "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\japsu\\Desktop\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
+        "projectUniqueName": "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
         "projectName": "TankolympicsLauncher",
-        "projectPath": "C:\\Users\\japsu\\Desktop\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
+        "projectPath": "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
         "packagesPath": "C:\\Users\\japsu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\japsu\\Desktop\\TankolympicsLauncher\\TankolympicsLauncher\\TankolympicsLauncher\\obj\\",
+        "outputPath": "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
