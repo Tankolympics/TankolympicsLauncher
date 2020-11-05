@@ -5,6 +5,7 @@ using System.IO;
 using System.IO.Compression;
 using System.Net;
 using System.Windows;
+using System.Windows.Media;
 
 namespace TankolympicsLauncher
 {
@@ -13,7 +14,7 @@ namespace TankolympicsLauncher
         ready,
         failed,
         downloadingGame,
-        downloadingUpdate
+        downloadingUpdate,
     }
 
     /// <summary>
@@ -136,7 +137,7 @@ namespace TankolympicsLauncher
                 webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(DownloadGameCompletedCallback);   //game zip download
 
                 GameUpdateProgressBar.Visibility = Visibility.Visible;
-                GameUpdateProgressBar.Height = 15;
+                DownloadProgressText.Visibility = Visibility.Visible;
 
                 webClient.DownloadProgressChanged += (s, e) =>
                 {
@@ -146,6 +147,7 @@ namespace TankolympicsLauncher
                 webClient.DownloadFileCompleted += (s, e) =>
                 {
                     GameUpdateProgressBar.Visibility = Visibility.Hidden;
+                    DownloadProgressText.Visibility = Visibility.Hidden;
                     // any other code to process the file
                 };
                 webClient.DownloadFileAsync(new Uri("https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbWRkVldMOEhmOUliT3JtQWtHU3A2RnJNVlE_ZT1oYkF2cW4/root/content"), gameZip, _onlineVersion);
@@ -181,6 +183,7 @@ namespace TankolympicsLauncher
         {
             CheckForUpdates();
             DownloadChangelog();
+            
         }
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
