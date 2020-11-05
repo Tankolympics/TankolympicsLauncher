@@ -23,7 +23,6 @@ namespace TankolympicsLauncher
     {
         private string rootPath;
         private string versionFile;
-        private string changelogFile;
         private string gameZip;
         private string gameExe;
 
@@ -61,7 +60,6 @@ namespace TankolympicsLauncher
 
             rootPath = Directory.GetCurrentDirectory();
             versionFile = Path.Combine(rootPath, "version.txt");
-            changelogFile = Path.Combine(rootPath, "changelog.txt");
             gameZip = Path.Combine(rootPath, "Build.zip");
             gameExe = Path.Combine(rootPath, "Build", "Tankolympics.exe");
         }
