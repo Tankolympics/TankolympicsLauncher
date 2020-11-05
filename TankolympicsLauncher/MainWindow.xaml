@@ -10,14 +10,14 @@
         Title="Tankolympics Launcher" Height="512" Width="1024" ResizeMode="CanMinimize">
     <Grid>
         <Image Stretch="UniformToFill" Source="images/tankolympics_banner.jpg"></Image>
-        <Rectangle Fill="#474746" Stroke="Black" StrokeThickness="4" RadiusX="20" RadiusY="20" Opacity="0.75" Margin="0,85,715,13"/>
-        <TextBlock Name="ChangelogTitle" HorizontalAlignment="Left" FontSize="40" Foreground="White" Text="Changelog:" TextAlignment="Center" Margin="54,80,0,-80"/>
-        <TextBlock Name="Changelog" HorizontalAlignment="Left" FontSize="20" Foreground="Black" Text="Loading changelog..." TextWrapping="Wrap" Width="309" Padding="10" Margin="0,136,0,10"/>
+        <Rectangle Fill="#474746" Stroke="Black" StrokeThickness="4" RadiusX="5" RadiusY="5" Opacity="0.75" Margin="0,98,742,90"/>
+        <TextBlock Name="ChangelogTitle" HorizontalAlignment="Left" FontSize="28" Foreground="White" Text="Changelog:" TextAlignment="Center" VerticalAlignment="Center" Margin="67,-258,0,0"/>
+        <TextBlock Name="Changelog" HorizontalAlignment="Left" FontSize="15" Foreground="AntiqueWhite" Text="Loading changelog..." TextWrapping="Wrap" Width="269" Padding="10" Margin="0,143,0,90"/>
         <TextBlock Name="VersionText" VerticalAlignment="Bottom" HorizontalAlignment="Right" FontSize="20" Foreground="White" Margin="10"></TextBlock>
-        <TextBlock Name="DownloadProgressText" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="20" Foreground="Black" Margin="35"></TextBlock>
-        <ProgressBar Name="GameUpdateProgressBar" VerticalAlignment="Bottom" Minimum="0" Maximum="100" MinHeight="25" Height="25" Width="300" Visibility="Hidden" Foreground="SkyBlue" Margin="10"></ProgressBar>
-        <Button Name="PlayButton" Content="Checking for updates" Click="PlayButton_Click" Height="60" FontSize="28" FontWeight="Bold" Foreground="Black" VerticalAlignment="Bottom" Width="400" MinWidth="300" Background="White" Margin="60"></Button>
-        <TextBlock Name="Title" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="80" Foreground="#D7D7C6" Margin="0,-21,0,0" Text="Tankolympics Launcher" TextDecorations="underline"></TextBlock>
+        <TextBlock Name="DownloadProgressText" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="20" Foreground="Black" Width="195" Height="35" TextAlignment="Center" LineHeight="6"/>
+        <ProgressBar Name="GameUpdateProgressBar" Minimum="0" Maximum="99" Visibility="Hidden" Foreground="#FF2980B9" Margin="0,0,0,30" Height="25" VerticalAlignment="Bottom" Width="400" HorizontalAlignment="Center" Background="#FFBDC3C7" BorderBrush="#FF7F8C8D"/>
+        <Button Name="PlayButton" Content="Checking for updates" Click="PlayButton_Click" Height="60" FontSize="28" FontWeight="Bold" Foreground="Black" VerticalAlignment="Bottom" Width="400" MinWidth="300" Background="White" Margin="60" BorderBrush="#FF0051FF" FontFamily="Segoe UI Semibold"></Button>
+        <TextBlock Name="Title" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="80" Foreground="#FBECF0F1" Text="Tankolympics Launcher" TextDecorations="underline" FontFamily="Corbel Light"/>
     </Grid>
 
 </Window>
