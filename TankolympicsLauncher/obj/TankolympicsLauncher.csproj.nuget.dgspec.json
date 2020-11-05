@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DFN\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj": {}
+    "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DFN\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj": {
+    "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DFN\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
+        "projectUniqueName": "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
         "projectName": "TankolympicsLauncher",
-        "projectPath": "C:\\Users\\DFN\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
-        "packagesPath": "C:\\Users\\DFN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DFN\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\obj\\",
+        "projectPath": "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
+        "packagesPath": "C:\\Users\\japsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DFN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\japsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packages.stride3d.net/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -48,6 +50,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -56,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
