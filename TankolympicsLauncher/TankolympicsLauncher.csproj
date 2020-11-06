@@ -13,11 +13,13 @@
 
   <ItemGroup>
     <None Remove="fonts\Prototype.ttf" />
+    <None Remove="images\tankolympics_banner_2.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="fonts\Prototype.ttf" />
     <Resource Include="images\tankolympics_banner.jpg" />
+    <Resource Include="images\tankolympics_banner_2.png" />
     <Resource Include="images\tankolympics_ico.ico" />
   </ItemGroup>
 

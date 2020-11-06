@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\japsu\\.nuget\\packages\\": {},
+    "C:\\Users\\Japsu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
+      "projectUniqueName": "D:\\Tiedostot\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
       "projectName": "TankolympicsLauncher",
-      "projectPath": "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
-      "packagesPath": "C:\\Users\\japsu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\japsu\\Documents\\GitHub\\launcher\\TankolympicsLauncher\\obj\\",
+      "projectPath": "D:\\Tiedostot\\GitHub\\launcher\\TankolympicsLauncher\\TankolympicsLauncher.csproj",
+      "packagesPath": "C:\\Users\\Japsu\\.nuget\\packages\\",
+      "outputPath": "D:\\Tiedostot\\GitHub\\launcher\\TankolympicsLauncher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\japsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Japsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -57,12 +57,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -71,7 +65,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

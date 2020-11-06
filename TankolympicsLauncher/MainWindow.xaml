@@ -9,7 +9,7 @@
         ContentRendered="Window_ContentRendered"
         Title="Tankolympics Launcher" Height="512" Width="1024" ResizeMode="CanMinimize">
     <Grid>
-        <Image Stretch="UniformToFill" Source="images/tankolympics_banner.jpg"></Image>
+        <Image Stretch="UniformToFill" Source="images/tankolympics_banner_2.png"></Image>
         <Rectangle Fill="#474746" Stroke="Black" StrokeThickness="4" RadiusX="5" RadiusY="5" Opacity="0.75" Margin="0,98,742,90"/>
         <TextBlock Name="ChangelogTitle" HorizontalAlignment="Left" FontSize="28" Foreground="White" Text="Changelog:" TextAlignment="Center" VerticalAlignment="Center" Margin="67,-258,0,0"/>
         <TextBlock Name="Changelog" HorizontalAlignment="Left" FontSize="15" Foreground="AntiqueWhite" Text="Loading changelog..." TextWrapping="Wrap" Width="269" Padding="10" Margin="0,143,0,90"/>
